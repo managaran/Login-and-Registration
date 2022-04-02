@@ -30,9 +30,8 @@ But how do we keep track of them once they've logged in? I think you might alrea
 Logout
 On the success page, have a logout button or link. When a user logs out, their session should be cleared. If the user attempts to access the success page (i.e. making a GET request by typing in the url), redirect them back to the login and registration page.
 
-Video: Thinking through using session in this assignment
-
 BONUS:
+
 Add more fields to your registration form with different form elements. For example, include a drop down menu, radio buttons, checkboxes, and a date picker. Include validations for each field. Have users provide their birthday, and require that they must be at least ten years old in order to register. Level up your password validations by requiring at least one capital letter and one number. Provide the user with several programming languages, and require that they check at least one as an interest of theirs. Customize this assignment and get creative!
 
 Create a new Flask project
